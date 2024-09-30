@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    color: white;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#main{
+    width: 100%;
+    
+}
+#header{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url('img1.avif');
+    background-size: cover;
+    background-position: center;
+}
+#internal-header{
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.292);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#items{
+    width:25%;
+    display: flex;
+    justify-content: space-between;
+}
+#items .item a{
+    opacity: .9;
+}
+#logo{
+    font-size: 25px;
+}
+#navbar .btn{
+    border-radius: 25px;
+    width: 100px;
+}
+#title{
+    width: 94%;
+    position: absolute;
+    top: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+#titlel{
+    width: 50%;
+}
+#titlel h1{
+    font-size: 85px;
+}
+#titler{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+#titler .social{
+    margin: 15px;
+    margin-right: 0%;
+    display: flex;
+}
+#title .social button{
+    border-radius: 50px;
+}
+#book{
+    width: 93vw;
+    position: absolute;
+    bottom: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+#booking{
+    display: flex;
+}
+.bookl .btn{
+    width: 15vw;
+    height: 8vh;
+    border-radius: 50px;
+}
+.bookl a button{
+    padding: 5px;
+    font-size: 1.65vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.bookl a button i{
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    font-size: 28px;
+    box-shadow: 0px 0px 50px darkmagenta;
+}
+#bookr{
+    width: 40vw;
+    margin-left: 20px;
+}
+#bookr p{
+    font-size: 22px;
+    opacity: .8;
+}
+.exp{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 13vw;
+}
+.exp a .btn{
+    color: white;
+    font-size: 1.3vw;
+    opacity: .5;
+}
+.exp a .btn i{
+    font-size: 1.9vw;
+}
+
+
+
+#area1{
+    color: black;
+    width: 100%;
+
+    padding: 50px;
+    margin-top: 40px;
+}
+#area1 #top1{
+    display: flex;
+    /* justify-content: space-between; */
+}
+#top1 h1, #dest1 h1{
+    width: 18vw;
+    font-size: 30px;
+    opacity: .3;
+}
+#top1 p, #dest2 p, #dest1 p{
+    width: 74vw;
+    font-size: 3.5vw;
+    font-weight: 500;
+    opacity: .6;
+}
+#middle11{
+    margin-left: 10vw;
+    margin-top: 12vh;
+    display: flex;
+    width: 65vw;
+    justify-content: space-between;
+}
+#middle1{
+    display: flex;
+    justify-content: center;
+}
+.ratings h1{
+    font-size: 6vw;
+    opacity: .7;
+}
+.ratings p{
+    font-size: 1.75vw;
+    opacity: .4;
+}
+#bottom1{
+    width: 100%;
+    margin-top: 170px;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+#dest1{
+    width: 50%;
+}
+#dest1 p{
+    width: 100%;
+}
+#dest2{
+    width: 35%;
+    display: flex;
+    align-items: end;
+}
+#dest2 p{
+    width: 100%;
+    font-size: 27px;
+}
+
+
+
+#area2{
+    width: 100%;
+    padding: 50px;
+}
+#card1{
+    width: 100%;
+    height: 75vh;
+    background-image: url(img5.avif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 20px;
+    padding-bottom: 2px;
+}
+#card1 p{
+    width: 50%;
+    font-size: 25px;
+    opacity: .7;
+}
+#card2{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+#ccard1{
+    width: 49.20%;
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 20px;
+    padding-bottom: 2px;
+    background-image: url(img6.avif);
+}
+#ccard2{
+    width: 49.20%;
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 20px;
+    padding-bottom: 2px;
+    background-image: url(img7.avif);
+}
+
+
+
+#area3{
+    color: black;
+    padding: 50px;
+    width: 100%;
+    margin-top: 50px;
+}
+#galeries{
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   margin-bottom: 60px;
+}
+#galeries h1{
+    opacity: .3;
+}
+#galeries p{
+    font-size: 3.59vw;
+    width: 80%;
+}
+.testimonials{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    align-items: end;    
+
+}
+.testimonials .tname a h1{
+    color: black;
+    font-size: 30px;
+    opacity: .5;
+}
+#testimonial-carousel, #testimoniall-carousel{
+    position: relative;
+    width: 80%;  
+}
+.testimonials #tname a{
+    text-decoration: underline;
+}
+.testimonials button{
+    position: absolute;
+}
+.carousel-item{
+   height: 55vh;
+   
+}
+.bod1,.bod2,.bod3,.bod4,.bod5,.bod6,.bod7,.bod8,.bod9,.bod10{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background-size: cover;
+    background-position: center;
+}
+.bod1{
+    background-image: url(tor1.avif);
+}
+.bod2{
+    background-image: url(tor2.avif);
+}
+.bod3{
+    background-image: url(tor3.avif);
+}
+.bod4{
+    background-image: url(tor4.avif);
+}
+.bod5{
+    background-image: url(tor5.avif);
+}
+.bod6{
+    background-image: url(tor6.avif);
+}
+.bod7{
+    background-image: url(tor7.avif);
+}
+.bod8{
+    background-image: url(tor8.avif);
+}
+.bod9{
+    background-image: url(tor9.avif);
+}
+.bod10{
+    background-image: url(tor10.avif);
+}
+
+
+#area4{
+    width: 100%;
+    padding: 50px;
+    margin-top: 100px;
+    color: black;
+    margin-bottom: 50px;
+}
+#res{
+    margin-bottom: 100px;
+}
+#res p{
+    font-size: 3.50vw;
+    width: 70%;
+}
+#res h1{
+    opacity: .5;
+}
+#buy{
+    width: 100%;
+}
+#buy .testimonials{
+    width: 100%;
+}
+#buy #testimoniall-carousel{
+    width: 100%;
+}
+#buy .carousel-item{
+    width: 100%;
+    height: 65vh;
+}
+.carousel-item .bodd{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#buy .bod{
+    width: 65%;
+    
+}
+#buy .bt1{
+    height: 70px;
+    width: 70px;
+    top: -28%;
+    left: 90%;
+    background-color: black;
+    border-radius: 50px;
+}
+#buy .bt2{
+    height: 70px;
+    width: 70px;
+    top: -28%;
+    left: 95%;
+    border-radius: 50px;
+    background-color: lightgray;
+}
+.bode{
+    width: 33%;
+    height: 100%;
+    color: black;
+}
+.bode button{
+    position: static;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    font-size: 1.5vw;
+    opacity: .7;
+    border-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bode{
+    padding-top: 50px;
+}
+.bode p{
+    font-size: 1.5vw;
+    opacity: .7;
+}
+.bode .duration {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.duration button{
+    width: 28%;
+    height: 40px;   
+}
+.bode .location{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.location button{
+    height: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.bode .from{
+    margin-top: 50px;
+}
+.bode .lbtn{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    width: 12vw;
+    height: 5.5vh;
+}
+footer{
+    width: 100vw;
+    height: 125vh;
+}
+#footer{
+    width: 100vw;
+    height: 125vh;
+    background-image: url(img11.avif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#f1
+{   width: 100%;
+    padding: 80px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#f1 h1{
+    font-size: 4vw;
+    width: 80%;
+}
+#f1 p{
+    font-size: 1.5vw;
+    width: 46%;
+}
+#f1 button{
+    margin-top: 30px;
+}
+#ff{
+    height: 50%;
+    width: 100%;
+    background-image: url(img11.avif);
+    background-size: cover;
+    background-position: 0 100%;
+    filter: blur(8px);
+}
+#fry{
+   position: absolute;
+   top: 48%;
+   width: 100%;
+   height: 60vh;
+}
+#f2{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 0;
+}
+#f2l{
+    width: 50%;
+}
+#f2l p{
+    width: 55%;
+   font-size: 1.5vw;
+}
+#f2r{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+#f2rl, #f2rr, #f2rm{
+    display: flex;
+    flex-direction: column;
+}
+#f2r a{
+    margin-top: 15px;
+    font-size: 1.25vw;
+}
+#f3{
+    width: 100%;
+    text-align: center;
+}
+#f3 #cname h1{
+    font-size: 15vw;
+}
